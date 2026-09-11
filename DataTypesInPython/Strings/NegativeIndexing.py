@@ -1,0 +1,10 @@
+str1 = "Python"
+print(str1)
+print(str1[0:])
+print(str1[-1])
+print(str1[-2])
+print(str1[-4:-1])
+print(str1[-5:-1])
+print(str1[-6:])
+print(str1[::-1])
+print(str1[-6:])

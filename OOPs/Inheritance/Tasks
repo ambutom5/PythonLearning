@@ -1,0 +1,47 @@
+Hierarchical Inheritance
+---------------------------------
+bank
+    bank name,branch,ifsc,manager name,contact no
+savings_acc(bank)
+    acc no,cust name,balance,mobile,interest rate
+current_acc(bank)
+    acc_no,customer_name,balance,business_name
+loan_acct(bank)
+    loan no,customer name,loan amt,interest rate,loan type,duration
+
+Hierarchical Inheritance
+---------------------------------
+Parent Class: Company
+Child classes:Developer,tester,HR,Manager
+
+
+Multiple Inheritance
+-----------------------------
+Person:
+    Name,age,place,mobile number,email id
+salary
+    basic salary,bonus,date of joining
+employee(person,salary)
+    employee id,designation
+
+Multiple Inheritance
+-----------------------------
+Online Shopping
+Customer
+    Name, mobile,adress, email
+product
+    prod_name,price,description
+order(customer,product)
+    orderid,qty,totalprice,orderdate
+
+
+
+multilevel
+
+
+class hospital
+    hosp name,location, contact
+dept
+    id, dept name, hod name
+patient
+    p id, name, age, place, illness, contact

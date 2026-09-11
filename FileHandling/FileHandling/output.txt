@@ -1,0 +1,2 @@
+Count of Lines : 2
+Longest Word : Interpreted

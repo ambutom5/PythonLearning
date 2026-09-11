@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/MySQL_PyCharm/BloodDonorManagement_CRUD" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/MySQL_PyCharm/EmployeeManagementCRUD" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/MySQL_PyCharm/GymManagement" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/MySQL_PyCharm/StudentManagement" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/SelfLearningPrograms" vcs="Git" />
+  </component>
+</project>
