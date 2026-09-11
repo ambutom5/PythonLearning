@@ -1,0 +1,20 @@
+Blood Donor Management CRUD
+----------------------------
+
+Develop a Python Console Application to manage a Blood Donor Management System
+using OOPs and MySQL.
+
+Database Details:
+    Database : blood_db
+    Table    : donor
+
+Columns:
+    id          : int, primary key, auto increment
+    name        : varchar(100)
+    blood_group : varchar(5)
+    phone       : varchar(15) unique
+    city        : varchar(100)
+    last_donation : date
+
+Requirements:
+    Create a class named BloodDonorManager

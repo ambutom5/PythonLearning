@@ -1,0 +1,39 @@
+------ Employee Management CRUD Application ------
+
+Database    : company_db
+Table       : employee
+        id              int PK, auto increment
+        name            varchar(100)
+        place           varchar(100)
+        mobile          varchar(15) unique
+        email           varchar(100)
+        department      varchar(100)
+        salary          int
+        joining_date    date
+
+------> Requirements
+
+Create a class named EmployeeManager
+
+1. Connect to Database
+Establish a connection to the MySQL database company_db.
+
+2. Add Record
+Accept all employee field values.
+Insert the employee record into the employee table.
+Display: "Employee Added Successfully."
+
+3. View All Records
+Fetch and display all employee records from the table.
+
+4. Update Record
+Accept the employee id.
+Update the required employee details.
+Display: "Employee Updated Successfully."
+
+5. Delete Record
+Accept the employee id.
+Delete the corresponding employee record.
+Display: "Employee Deleted Successfully."
+
+Note: Implement all database operations as methods inside the EmployeeManager class.
