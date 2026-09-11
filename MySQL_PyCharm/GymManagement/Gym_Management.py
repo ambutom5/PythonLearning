@@ -174,4 +174,4 @@ member_instance = GymMemberManager()
 # member_instance.retrieve(id = 3)
 # member_instance.delete1(id = 7)
 
-member_instance.put1(id=10,name="Krishna Priya",place = "Alappuzhaaa",mobile = "900007654")
+# member_instance.put1(id=10,name="Krishna Priya",place = "Alappuzhaaa",mobile = "900007654")

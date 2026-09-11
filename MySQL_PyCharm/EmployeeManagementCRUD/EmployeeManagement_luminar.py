@@ -1,9 +1,6 @@
 import mysql.connector
 from datetime import datetime
 
-from MySQL_PyCharm.EmployeeManagementCRUD.gui import department, joining_date
-
-
 class Connect:
     def get_connection(self):
         try:

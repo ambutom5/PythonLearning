@@ -112,10 +112,3 @@ student_instance = Student()
 # student_instance.retrieve(id = 3)
 # student_instance.delete(id = 6)
 # student_instance.put(id = 5,name = "Mannu",age = 30,place = "Tirur")
-
-
-
-
-
-
-
