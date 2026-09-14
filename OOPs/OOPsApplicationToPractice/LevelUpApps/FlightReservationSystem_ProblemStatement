@@ -1,0 +1,19 @@
+Design a menu‑driven program using a class FlightReservation to manage flight ticket bookings. The system should allow the following operations:
+
+Add Flight
+Add a new flight with details like flight number, destination, and total available seats.
+
+***Display Flights
+Show all flights currently available along with their seat counts and destinations.
+
+Book Ticket
+Allow a passenger to book a ticket for a flight. Reduce the seat count when booked.
+
+Cancel Ticket
+Cancel a previously booked ticket and increase the seat count.
+
+***Search Flight
+Search for a flight by flight number or destination and display its availability.
+
+Exit
+Terminate the program.
