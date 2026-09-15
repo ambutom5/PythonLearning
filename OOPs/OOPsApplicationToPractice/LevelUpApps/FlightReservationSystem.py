@@ -11,7 +11,7 @@ class FlightReservation:
         destination = input("Enter Flight Destination: ")
         seats = int(input("Enter Flight Capacity: "))
         self.flights.append(flight_no)
-        self.flight_details[flight_no] = {"destination":destination,"seats":seats}
+        self.flight_details[flight_no] = {"destination" : destination,"seats" : seats}
         print("New Flight Added!")
 
     def display_flights(self):
