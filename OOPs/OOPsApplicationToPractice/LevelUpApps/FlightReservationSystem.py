@@ -1,7 +1,9 @@
 class FlightReservation:
     def __init__(self):
         self.flights = []
+        # flight_details = {flight_no: {"destination": str, "seats": int}}
         self.flight_details = {}
+        # bookings = {customer_name: flight_no}
         self.bookings = {}
 
     def add_flight(self):
@@ -19,7 +21,7 @@ class FlightReservation:
             print("----------------------- Flight Availablity -----------------------")
             for i, flight in enumerate(self.flights,start = 1):
                 details = self.flight_details[flight]
-                print(f"{i}. Flight {flight} -> Destination : {details["destination"]} -> Available Seats : {details["seats"]}")
+                print(f"{i}. Flight {flight} -> Destination : {details['destination']} -> Available Seats : {details['seats']}")
 
     def book_ticket(self):
         flight_number = input("Enter Flight Number: ")

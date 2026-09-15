@@ -17,3 +17,15 @@ Search for a flight by flight number or destination and display its availability
 
 Exit
 Terminate the program.
+
+
+self.flight_details = {
+    "AI101": {
+        "destination": "Delhi",
+        "seats": 120
+    },
+    "BA202": {
+        "destination": "London",
+        "seats": 200
+    }
+}

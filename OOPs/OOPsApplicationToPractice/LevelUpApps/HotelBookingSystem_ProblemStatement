@@ -1,5 +1,7 @@
 Multi‑Hotel Room Booking System (Problem Statement)
-Design a menu‑driven program to manage bookings across multiple hotels. Each hotel can have different room categories (e.g., Single, Double, Suite). The system should support the following operations:
+Design a menu‑driven program to manage bookings across multiple hotels.
+Each hotel can have different room categories (e.g., Single, Double, Suite).
+The system should support the following operations:
 
 Add Hotel
 Add a new hotel with its name and room categories (each category has a count of available rooms).
@@ -8,7 +10,8 @@ Display Hotels
 Show all hotels with their room categories and availability.
 
 Book Room
-Allow a customer to choose a hotel and room category, then book a room if available. Store the booking under the customer’s name.
+Allow a customer to choose a hotel and room category, then book a room if available.
+Store the booking under the customer’s name.
 
 Cancel Booking
 Cancel a customer’s booking and restore the room availability.
@@ -21,3 +24,16 @@ Search by customer name to see which hotel and room category they booked.
 
 Exit System
 End the program gracefully.
+
+
+self.hotels = {
+    "Taj": {
+        "Single": 10,
+        "Double": 5,
+        "Suite": 2
+    },
+    "Oberoi": {
+        "Deluxe": 8,
+        "Suite": 4
+    }
+}
