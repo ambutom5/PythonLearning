@@ -7,3 +7,8 @@ place varchar(100),
 department varchar(100),
 salary int,
 joining_date date);
+
+select * from employeee;
+
+
+desc studentt;

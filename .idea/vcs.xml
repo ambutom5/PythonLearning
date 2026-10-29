@@ -6,6 +6,6 @@
     <mapping directory="$PROJECT_DIR$/MySQL_PyCharm/EmployeeManagementCRUD" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/MySQL_PyCharm/GymManagement" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/MySQL_PyCharm/StudentManagement" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/SelfLearningPrograms" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/OOPs/OOPsApplicationPractice" vcs="Git" />
   </component>
 </project>

@@ -13,7 +13,4 @@ for i in range(len(s)):
     print()
 
 
-# for i in range(1,len(s)+1):
-#     for j in range(1,i+1):
-#         print(s[i-1],end = " ")
-#     print()
+
