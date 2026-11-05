@@ -1,9 +1,13 @@
-sentence = "This is a pythonnnn program"
-words = sentence.split()
-longestw = ""
+n = 12321
+s = 0
+temp = n
 
-for word in words:
-    if len(word) > len(longestw):
-        longestw = word
+while n > 0:
+    digit = n % 10
+    s = s + digit
+    n = n // 10
 
-print(longestw)
+if s == temp:
+    print("Palindrome")
+else:
+    print("Not Palindrome")
