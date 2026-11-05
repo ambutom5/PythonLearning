@@ -13,3 +13,12 @@ for word in words:
         maxword = word
 
 print(maxword,max)
+
+# OR
+
+longestw = ""
+for word in words:
+    if len(word) > len(longestw):
+        longestw = word
+
+print(longestw)

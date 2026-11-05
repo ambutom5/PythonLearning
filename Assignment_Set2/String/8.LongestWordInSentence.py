@@ -11,8 +11,16 @@ for word in words:
         longest = word
 print(longest)
 
-
 # OR
+
+longestw = ""
+
+for word in words:
+    if len(word) > len(longestw):
+        longestw = word
+
+print(longestw)
+
 
 
 # mydict = {}
@@ -26,6 +34,7 @@ print(longest)
 # for key,value in mydict.items():
 #     if value == length:
 #         print(key)
+
 
 
 

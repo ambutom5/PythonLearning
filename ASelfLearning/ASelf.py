@@ -1,16 +1,9 @@
-sentence = "Python is a high high level level language."
-
+sentence = "This is a pythonnnn program"
 words = sentence.split()
-
-freq = {}
-
-# for word in words:
-#     if word not in freq:
-#         freq[word] = 1
-#     else:
-#         freq[word] += 1
+longestw = ""
 
 for word in words:
-    freq[word] = freq.get(word,0)+1
+    if len(word) > len(longestw):
+        longestw = word
 
-print(freq)
+print(longestw)
